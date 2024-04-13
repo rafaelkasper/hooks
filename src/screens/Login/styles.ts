@@ -3,12 +3,20 @@ import styled from "styled-components/native";
 export const LoginButton = styled.TouchableOpacity`
   background-color: #003049;
   color: #fff;
-  height: 6cqi;
+  height: 60px;
   width: 90%;
   justify-content: center;
   align-items: center;
   margin: 10px;
   border-radius: 40px;
+`;
+
+export const RegisterButton = styled.TouchableOpacity`
+  height: 60px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 `;
 
 export const UserInput = styled.TextInput`
@@ -19,6 +27,7 @@ export const UserInput = styled.TextInput`
   height: 60px;
   border-radius: 40px;
   padding-left: 20px;
+  font-size: 22px;
 `;
 
 export const PasswordInput = styled.TextInput`
@@ -29,6 +38,7 @@ export const PasswordInput = styled.TextInput`
   height: 60px;
   border-radius: 40px;
   padding-left: 20px;
+  font-size: 22px;
 `;
 
 export const Title = styled.Text`
@@ -49,5 +59,4 @@ export const Container = styled.View`
   align-items: center;
   background-color: #252525;
   width: 100%;
-  padding: 5px;
 `;
